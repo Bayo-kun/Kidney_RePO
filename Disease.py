@@ -16,7 +16,7 @@ st.image('pngwing.com (10).png')
 
 st.markdown("<br>", unsafe_allow_html = True)
 
-st.header('Project Info', divider= True)
+st.header('Project Info')
 st.write("This machine learning program predicts the probability of an individual having heart disease based on a scset of medical parameters, with the goal of assisting healthcare professionals in diagnosing and treating patients more effectively through early identification and risk assessment.")
 
 st.markdown("<br>", unsafe_allow_html = True)
