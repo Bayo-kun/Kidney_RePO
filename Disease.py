@@ -16,7 +16,7 @@ st.image('pngwing.com (10).png')
 
 st.markdown("<br>", unsafe_allow_html = True)
 
-st.header('Project Info', divider= True)
+st.header('Project Info')
 st.write("This machine learning program predicts the probability of an individual having heart disease based on a scset of medical parameters, with the goal of assisting healthcare professionals in diagnosing and treating patients more effectively through early identification and risk assessment.")
 
 st.markdown("<br>", unsafe_allow_html = True)
@@ -37,7 +37,7 @@ ds['packed cell volume'] = pd.to_numeric(ds['packed cell volume'], errors = 'coe
 st.sidebar.markdown("<br>", unsafe_allow_html = True)
 st.sidebar.markdown("<br>", unsafe_allow_html = True)
 
-st.sidebar.subheader('Input your Variables', divider = True)
+st.sidebar.subheader('Input your Variables')
 
 age = st.sidebar.number_input('Age', 16,90)
 hem = st.sidebar.number_input('Hemoglobin', ds['hemoglobin'].min(), ds['hemoglobin'].max())
@@ -62,7 +62,7 @@ input_var['packed cell volume'] = [pcv]
 
 st.markdown("<br>", unsafe_allow_html= True)
 # display the users input variable 
-st.subheader('Users Input Variables', divider= True)
+st.subheader('Users Input Variables')
 st.dataframe(input_var)
 
 
